@@ -1,6 +1,4 @@
-Here's a professional and modern `README.md` tailored for your React + Clerk + Tailwind project with route protection and lazy loading. You can customize the project name and description as needed.
 
----
 
 ```markdown
 # 🔐 React Clerk Auth Template
@@ -26,7 +24,6 @@ src/
 ├── lib/               # Utility modules (e.g., env loader)
 ├── pages/             # Route-level components (Home, Dashboard, etc.)
 ├── router/            # Routing logic (public/private)
-├── routes/            # Route configurations
 ├── App.tsx            # App wrapper with router
 ├── main.tsx           # Entry point (with ClerkProvider)
 └── index.css          # Tailwind base styles
@@ -64,7 +61,7 @@ An example page `/dashboard` demonstrates calling a protected backend API using 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Devanand-Binil/Template_React.js.git
 cd your-repo-name
 
 # Install dependencies
@@ -85,12 +82,7 @@ npm run dev
 | ---------------------------- | ------------------------------ |
 | `VITE_CLERK_PUBLISHABLE_KEY` | Clerk frontend publishable key |
 
-## 📌 TODOs
 
-* [ ] Add shadcn/ui components
-* [ ] Implement Admin Dashboard
-* [ ] Connect to real backend
-* [ ] Add tests
 
 ## 🤝 Contributing
 
@@ -99,10 +91,3 @@ Feel free to fork and submit pull requests!
 ## 📄 License
 
 This project is [MIT](./LICENSE) licensed.
-
-```
-
----
-
-Let me know if you want to add deployment instructions (e.g. Vercel or Netlify), a live demo badge, or a screenshot of your app.
-```
