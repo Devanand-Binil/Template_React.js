@@ -1,4 +1,4 @@
-# 🔐 React Clerk Auth Template
+# 🔐 React.js Template + (Clerk)
 
 A **modern, production-ready React.js template** with:
 
